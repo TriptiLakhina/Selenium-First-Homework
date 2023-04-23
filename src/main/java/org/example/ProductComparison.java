@@ -48,6 +48,7 @@ public class ProductComparison {
         String item1 = driver.findElement(By.xpath("(//a[@href=\"/htc-one-m8-android-l-50-lollipop\"])[2]")).getText();
         System.out.println("Item 1 product name is: " + item1);
 
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 //        String item2 = driver.findElement(By.xpath("(//a[@href=\"/25-virtual-gift-card\"])[2]")).getText();
 //        System.out.println("Item 2 product name is: " + item2);
 
