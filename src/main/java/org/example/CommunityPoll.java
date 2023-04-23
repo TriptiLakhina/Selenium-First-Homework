@@ -51,5 +51,9 @@ public class CommunityPoll {
 
 
         System.out.println("Error message is: " +actualMessage);
+
+        driver.close();
     }
+
+
 }
